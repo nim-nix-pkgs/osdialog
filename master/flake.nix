@@ -11,7 +11,6 @@
   inputs.src-osdialog-master.ref   = "refs/heads/master";
   inputs.src-osdialog-master.owner = "johnnovak";
   inputs.src-osdialog-master.repo  = "nim-osdialog";
-  inputs.src-osdialog-master.dir   = "";
   inputs.src-osdialog-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
